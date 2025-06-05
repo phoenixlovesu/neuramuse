@@ -1,4 +1,4 @@
-# NeuraMuse
+# NeuraMuse (WIP)
 ---
 
 ## How to Use
