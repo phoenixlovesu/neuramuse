@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', monospace;
+  background-color: #1a1b2f;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ff79c6;
+}
+
+#musea-img {
+  image-rendering: pixelated;
+  width: 128px;
+  height: 128px;
+}
+
+#prompt-text {
+  font-size: 14px;
+  margin: 20px 0;
+  padding: 10px;
+  background: #282a36;
+  border-radius: 8px;
+}
+
+.mood-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.mood-buttons button {
+  background: none;
+  border: 2px solid #444;
+  border-radius: 8px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.mood-buttons img {
+  width: 32px;
+  height: 32px;
+  image-rendering: pixelated;
+}

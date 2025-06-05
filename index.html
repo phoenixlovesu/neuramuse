@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NeuraMuse</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="app-container">
+            <h1>NeuraMuse</h1>
+
+            <img id="musea-img" src="images/musea-happy.png" alt="Musea the AI Assistant">
+
+            <p id="prompt-text">How are you feeling today?</p>
+
+            <div class="mood-buttons">
+                <button onclick="setMood('happy')">
+                    <img src="images/mood-happy.png" alt="Happy" />
+                </button>
+                <button onclick="setMood('chill')">
+                    <img src="images/mood-chill.png" alt="Chill" />
+                </button>
+                <button onclick="setMood('dreamy')">
+                    <img src="images/mood-dreamy.png" alt="Dreamy" />
+                </button>
+                <button onclick="setMood('sad')">
+                    <img src="images/mood-sad.png" alt="Sad" />
+                </button>
+                <button onclick="setMood('mad')">
+                    <img src="images/mood-mad.png" alt="Mad" />
+                </button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
